@@ -36,7 +36,7 @@ class CommerceListFragment : Fragment() {
 
         val list = listOf(
             Commerces("Super Selectos", "San Salvador", "000945445", "https://th.bing.com/th/id/OIP.OpCmVN5sUULNx4XBlDT_dQAAAA?pid=ImgDet&rs=1"),
-            Commerces("Super Selectos", "San Salvador", "000945445", "https://th.bing.com/th/id/OIP.OpCmVN5sUULNx4XBlDT_dQAAAA?pid=ImgDet&rs=1"),
+            Commerces("Super Selectos", "San Salvador", "009099888", "https://th.bing.com/th/id/OIP.OpCmVN5sUULNx4XBlDT_dQAAAA?pid=ImgDet&rs=1"),
             Commerces("Super Selectos", "San Salvador", "000945445", "https://th.bing.com/th/id/OIP.OpCmVN5sUULNx4XBlDT_dQAAAA?pid=ImgDet&rs=1"),
             Commerces("Super Selectos", "San Salvador", "000945445", "https://th.bing.com/th/id/OIP.OpCmVN5sUULNx4XBlDT_dQAAAA?pid=ImgDet&rs=1"),
             Commerces("Super Selectos", "San Salvador", "000945445", "https://th.bing.com/th/id/OIP.OpCmVN5sUULNx4XBlDT_dQAAAA?pid=ImgDet&rs=1"),
@@ -48,7 +48,7 @@ class CommerceListFragment : Fragment() {
         )
 
         commerceListAdapters = CommerceListAdapters(list)
-        binding.commerceList.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
+        binding.commerceList.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.VERTICAL, false)
         binding.commerceList.adapter = commerceListAdapters
 
     }
