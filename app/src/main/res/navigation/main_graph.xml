@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/commerceListFragment">
+
+    <fragment
+        android:id="@+id/commerceListFragment"
+        android:name="com.example.pruebaserfinsa.features.home.fragments.CommerceListFragment"
+        android:label="fragment_commerce_list"
+        tools:layout="@layout/fragment_commerce_list" />
+    <fragment
+        android:id="@+id/newCommerceFragment"
+        android:name="com.example.pruebaserfinsa.features.home.fragments.NewCommerceFragment"
+        android:label="fragment_new_commerce"
+        tools:layout="@layout/fragment_new_commerce" />
+</navigation>
