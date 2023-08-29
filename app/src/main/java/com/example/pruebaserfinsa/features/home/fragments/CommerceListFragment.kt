@@ -35,6 +35,15 @@ class CommerceListFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val list = listOf(
+            Commerces("Super Selectos", "San Salvador", "000945445", "https://th.bing.com/th/id/OIP.OpCmVN5sUULNx4XBlDT_dQAAAA?pid=ImgDet&rs=1"),
+            Commerces("Super Selectos", "San Salvador", "000945445", "https://th.bing.com/th/id/OIP.OpCmVN5sUULNx4XBlDT_dQAAAA?pid=ImgDet&rs=1"),
+            Commerces("Super Selectos", "San Salvador", "000945445", "https://th.bing.com/th/id/OIP.OpCmVN5sUULNx4XBlDT_dQAAAA?pid=ImgDet&rs=1"),
+            Commerces("Super Selectos", "San Salvador", "000945445", "https://th.bing.com/th/id/OIP.OpCmVN5sUULNx4XBlDT_dQAAAA?pid=ImgDet&rs=1"),
+            Commerces("Super Selectos", "San Salvador", "000945445", "https://th.bing.com/th/id/OIP.OpCmVN5sUULNx4XBlDT_dQAAAA?pid=ImgDet&rs=1"),
+            Commerces("Super Selectos", "San Salvador", "000945445", "https://th.bing.com/th/id/OIP.OpCmVN5sUULNx4XBlDT_dQAAAA?pid=ImgDet&rs=1"),
+            Commerces("Super Selectos", "San Salvador", "000945445", "https://th.bing.com/th/id/OIP.OpCmVN5sUULNx4XBlDT_dQAAAA?pid=ImgDet&rs=1"),
+            Commerces("Super Selectos", "San Salvador", "000945445", "https://th.bing.com/th/id/OIP.OpCmVN5sUULNx4XBlDT_dQAAAA?pid=ImgDet&rs=1"),
+            Commerces("Super Selectos", "San Salvador", "000945445", "https://th.bing.com/th/id/OIP.OpCmVN5sUULNx4XBlDT_dQAAAA?pid=ImgDet&rs=1"),
             Commerces("Super Selectos", "San Salvador", "000945445", "https://th.bing.com/th/id/OIP.OpCmVN5sUULNx4XBlDT_dQAAAA?pid=ImgDet&rs=1")
         )
 
